@@ -1,0 +1,26 @@
+body {
+  background: #fff;
+  color: #222;
+}
+
+/* ダークモード用のクラス（今後拡張可能） */
+body.dark {
+  background: #222;
+  color: #fff;
+}
+
+/* 主要なコンテナやカードのスタイル例 */
+.main-container {
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 24px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 16px;
+  margin-bottom: 16px;
+}
