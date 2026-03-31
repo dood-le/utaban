@@ -42,5 +42,5 @@ jobs:
           script: |
             cd /var/www/utaban
             pm2 delete utaban 2>/dev/null || true
-            PORT=3000 pm2 start .output/server/index.mjs --name utaban
+            PORT=3000 pm2 start server/index.mjs --name utaban
             pm2 save
