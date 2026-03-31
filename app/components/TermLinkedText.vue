@@ -67,7 +67,9 @@ const linkedHtml = computed(() => {
       if (replaced) return match
       replaced = true
       linked.add(term.slug)
-      return `<span class="term-link" data-slug="${term.slug}">${match}</span>`
+      const safeSlug = term.slug.replace(/[^a-zA-Z0-9\-_]/g, '')
+      const safeMatch = match.replace(/[<>&"']/g, (c: string) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&#39;' }[c] || c))
+      return `<span class="term-link" data-slug="${safeSlug}">${safeMatch}</span>`
     })
   }
 

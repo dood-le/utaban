@@ -4,7 +4,7 @@
       <nav class="nav-container">
         <NuxtLink to="/" class="logo">
           <span class="logo-icon">♪</span>
-          <span class="logo-text">音楽理論辞典</span>
+          <span class="logo-text">utaban</span>
         </NuxtLink>
         <div class="nav-right">
           <div class="nav-links">
@@ -46,7 +46,7 @@
       <slot />
     </main>
     <footer class="app-footer">
-      <p>音楽理論辞典 — 作曲・DTMを学ぼう</p>
+      <p>utaban — 作曲・DTMを学ぼう</p>
     </footer>
   </div>
 </template>

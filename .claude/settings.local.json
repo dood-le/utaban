@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /c/Users/sakur/Desktop/music-theory-site/app/composables/*.ts)",
+      "Bash(xargs cat:*)",
+      "Bash(grep -r \"password\\\\|secret\\\\|api_key\\\\|apiKey\\\\|token\\\\|bearer\" /c/Users/sakur/Desktop/music-theory-site/app --include=*.ts --include=*.vue --include=*.js)",
+      "Bash(grep -r \"headers\\\\|CORS\\\\|Access-Control\\\\|Content-Security-Policy\" /c/Users/sakur/Desktop/music-theory-site/app --include=*.ts --include=*.vue --include=*.js)",
+      "Bash(grep -n \"JSON.parse\\\\|JSON.stringify\" /c/Users/sakur/Desktop/music-theory-site/app/composables/*.ts)",
+      "Bash(npx vercel:*)",
+      "Bash(aws sts:*)",
+      "Bash(aws ec2:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(gh secret:*)"
+    ]
+  }
+}

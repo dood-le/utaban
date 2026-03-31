@@ -2,8 +2,8 @@
   <div class="home">
     <section class="hero">
       <div class="hero-inner">
-        <span class="hero-badge">Music Theory Dictionary</span>
-        <h1 class="hero-title">音楽理論辞典</h1>
+        <span class="hero-badge">utaban — Music & DTM Platform</span>
+        <h1 class="hero-title">utaban</h1>
         <p class="hero-subtitle">
           作曲・編曲に役立つ音楽理論を<br />インタラクティブに学ぼう
         </p>
@@ -127,7 +127,7 @@ function scrollToCategories() {
 }
 
 useHead({
-  title: '音楽理論辞典 - 作曲理論をインタラクティブに学ぶ',
+  title: 'utaban - 作曲・DTMをインタラクティブに学ぶ',
 })
 </script>
 
